@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://shuttle.proxy.rlwy.net:29091/railway
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate

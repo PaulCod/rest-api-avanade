@@ -9,7 +9,7 @@ public class Card {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
     @Column(unique = true)
     private String number;
@@ -17,11 +17,11 @@ public class Card {
     @Column(name = "available_limit", scale = 2, precision = 13)
     private BigDecimal limit;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

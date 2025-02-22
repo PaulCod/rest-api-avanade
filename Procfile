@@ -1,0 +1,1 @@
+web: java -jar build/libs/rest-api-avanade-0.0.1-SNAPSHOT.jar
